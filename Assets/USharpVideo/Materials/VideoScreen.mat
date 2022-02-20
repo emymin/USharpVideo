@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: VideoScreen
-  m_Shader: {fileID: 4800000, guid: 412ea878efbed224d97338aed34a773c, type: 3}
-  m_ShaderKeywords: _EMISSION _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_Shader: {fileID: 4800000, guid: ed07d9d29df5f4d4f90554578555b76e, type: 3}
+  m_ShaderKeywords: _EMISSION _GLOSSYREFLECTIONS_OFF _MODE_2D _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,10 +56,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _2DMode: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Enable3D: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 0

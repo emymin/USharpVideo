@@ -151,6 +151,12 @@ namespace UdonSharp.Video
 
         bool _ranInit = false;
 
+        bool _isStereo = false;
+        const int STEREO_MODE_2D_FALLBACK = 0;
+        const int STEREO_MODE_SIDE_BY_SIDE = 1;
+        const int STEREO_MODE_OVER_UNDER = 2;
+        const int STEREO_MODE_ANAGLYPH = 3;
+
         void Start()
         {
             if (_ranInit)
